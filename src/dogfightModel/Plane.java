@@ -1,5 +1,5 @@
 package dogfightModel;
 
-public interface IArea {
+public class Plane {
 
 }

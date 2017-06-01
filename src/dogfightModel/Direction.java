@@ -1,5 +1,5 @@
 package dogfightModel;
 
-public class Direction {
+public enum Direction {
 
 }

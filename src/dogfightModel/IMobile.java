@@ -1,5 +1,5 @@
 package dogfightModel;
 
-public class IMobile {
+public interface IMobile {
 
 }
