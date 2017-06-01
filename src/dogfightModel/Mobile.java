@@ -1,5 +1,5 @@
 package dogfightModel;
 
 public class Mobile {
-	public int speed;
+	private int speed;
 }

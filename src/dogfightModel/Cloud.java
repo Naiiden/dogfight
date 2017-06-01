@@ -1,9 +1,9 @@
 package dogfightModel;
 
 public class Cloud {
-	public int SPEED = 1;
-	public int WIDTH = 300;
-	public int HEIGHT = 150;
-	public String IMAGE = "cloud";
+	private static int SPEED = 1;
+	private static int WIDTH = 300;
+	private static int HEIGHT = 150;
+	private static String IMAGE = "cloud";
 	
 }

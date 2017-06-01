@@ -1,8 +1,8 @@
 package dogfightModel;
 
 public class Plane {
-	public int SPEED = 4;
-	public int WIDTH = 100;
-	public int HEIGHT = 30;
-	public int player;
+	private static int SPEED = 4;
+	private static int WIDTH = 100;
+	private static int HEIGHT = 30;
+	private int player;
 }
