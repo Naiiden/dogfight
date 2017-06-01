@@ -1,6 +1,7 @@
 package dogfightControler;
 
 import dogfightModel.DogfightModel;
+import dogfightModel.IDogfightModel;
 import dogfightView.DogfightView;
 
 public class DogFightController {
@@ -8,7 +9,7 @@ public class DogFightController {
 	
 	private static int TIME_SLEEP = 30;
 	
-	public DogFightController(DogfightModel dogfightModel) {
+	public DogFightController(DogfightModel IDogfightModel) {
 		// TODO Auto-generated constructor stub
 	}
 
@@ -31,6 +32,7 @@ public class DogFightController {
 	public static void setTIME_SLEEP(int tIME_SLEEP) {
 		TIME_SLEEP = tIME_SLEEP;
 	}
+	
 	
 	
 }
