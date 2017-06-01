@@ -1,4 +1,4 @@
-package IDogFichtModel;
+package dogfightModel;
 
 public class IMobile {
 
