@@ -30,8 +30,8 @@ public class DogFightController {
 		return TIME_SLEEP;
 	}
 
-	public static void setTIME_SLEEP(int tIME_SLEEP) {
-		TIME_SLEEP = tIME_SLEEP;
+	public static void setTIME_SLEEP(int TIME_SLEEP) {
+		DogFightController.TIME_SLEEP = TIME_SLEEP;
 	}
 	
 	public void orderPerform(UserOrder userOrder) {
