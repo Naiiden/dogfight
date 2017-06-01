@@ -1,5 +1,5 @@
 package dogfightControler;
 
-public enum Order {
+public class UserOrder {
 
 }
