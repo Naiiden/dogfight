@@ -1,5 +1,7 @@
 package dogfightModel;
 
+import java.util.ArrayList;
+
 public class DogfightModel {
 	public DogfightModel() 
 	{
@@ -7,6 +9,7 @@ public class DogfightModel {
 	}
 	public IArea getArea()
 	{
+		return null;
 		
 	}
 	public void buildArea(Dimension diemnsion)
@@ -23,10 +26,12 @@ public class DogfightModel {
 	}
 	public ArrayList<IMobile> getMobiles()
 	{
+		return null;
 		
 	}
 	public IMobile getMobileByPlayer(int player)
 	{
+		return null;
 		
 	}
 	public void setMobilesHavesMoved()

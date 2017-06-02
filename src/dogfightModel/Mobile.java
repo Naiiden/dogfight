@@ -14,6 +14,7 @@ public class Mobile {
 	}
 	public Direction getDirection()
 	{
+		return null;
 		
 	}
 	public void setDirection(Direction direction) 
@@ -22,22 +23,27 @@ public class Mobile {
 	}
 	public Point getPosition()
 	{
+		return null;
 		
 	}
 	public Dimension getDimension()
 	{
+		return null;
 		
 	}
 	public int getSpeed()
 	{
+		return speed;
 		
 	}
 	public int getWidth()
 	{
+		return speed;
 		
 	}
 	public int getHeight()
 	{
+		return speed;
 		
 	}
 	private void moveUp()
@@ -58,10 +64,12 @@ public class Mobile {
 	}
 	public Color getColor()
 	{
+		return null;
 		
 	}
 	public IDogfightModel getDogfightModel()
 	{
+		return null;
 		
 	}
 	public void setDogfightModel(IDogfightModel dogfightModel) 
@@ -70,14 +78,17 @@ public class Mobile {
 	}
 	public boolean hit()
 	{
+		return false;
 		
 	}
 	public boolean isWeapon()
 	{
+		return false;
 		
 	}
 	public Image getImage()
 	{
+		return null;
 		
 	}
 }

@@ -1,11 +1,13 @@
 package dogfightModel;
 
+import java.awt.Image;
+
 public interface IArea {
-	public Dimension getDimension()
+	public default Dimension getDimension()
 	{
 		
 	}
-	public Image getImage()
+	public default Image getImage()
 	{
 		
 	}
