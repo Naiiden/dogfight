@@ -1,14 +1,25 @@
 package dogfightModel;
+
+import java.awt.Color;
+import java.awt.Image;
+import java.awt.Point;
+
 //test commit and push//
 public class Mobile {
 	private int speed;
 	
-	public Mobile(Direction diection, Position position, Dimension dimension, int speed, String image);
+	public Mobile(Direction diection, Position position, Dimension dimension, int speed, String image) 
+	{
+		
+	}
 	public Direction getDirection()
 	{
 		
 	}
-	public void setDirection(Direction direction);
+	public void setDirection(Direction direction) 
+	{
+		
+	}
 	public Point getPosition()
 	{
 		
