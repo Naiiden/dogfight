@@ -12,10 +12,12 @@ public class Plane {
 	}
 	public boolean isPlayer(int player)
 	{
+		return false;
 		
 	}
 	public boolean hit()
 	{
+		return false;
 		
 	};
 }

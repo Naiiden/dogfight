@@ -7,8 +7,9 @@ public interface IDogfightModel {
 	public void buildArea(Dimension dimension);
 	public void addMobile(IMobile Mobile);
 	public void removeMobile(IMobile Mobile);
-	public ArrayList<IMobile> getMobiles()
+	public default ArrayList<IMobile> getMobiles()
 	{
+		return null;
 		
 	}
 	public void setMobileHavesMoved();
