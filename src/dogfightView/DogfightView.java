@@ -14,7 +14,7 @@ public class DogfightView {
 	{
 		
 	}
-	public displayMessage(String message)
+	public void displayMessage(String message)
 	{
 		
 	}
