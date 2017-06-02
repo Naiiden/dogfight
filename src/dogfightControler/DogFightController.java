@@ -1,6 +1,7 @@
 package dogfightControler;
 
 import dogfightModel.DogfightModel;
+import dogfightModel.IMobile;
 import dogfightView.IViewSystem;
 
 public class DogFightController {
@@ -37,5 +38,18 @@ public class DogFightController {
 	public void orderPerform(UserOrder userOrder) {
 		
 	}
-	
+	private boolean isWeaponOnMobile(final IMobile mobile, final IMobile weapon) {
+		if (((weapon.getPosition().getX() / weapon.getWidth()) >= (mobile.getPosition().getX() /
+		weapon.getWidth()))
+		 && ((weapon.getPosition().getX() / weapon.getWidth()) <=
+		((mobile.getPosition().getX() + mobile.getWidth()) / weapon.getWidth()))) {
+		 if (((weapon.getPosition().getY() / weapon.getHeight()) >= (mobile.getPosition().getY()
+		/ weapon.getHeight()))
+		 && ((weapon.getPosition().getY() / weapon.getHeight()) <=
+		((mobile.getPosition().getY() + mobile.getHeight()) / weapon.getHeight()))) {
+		 return true;
+		 }
+		 }
+		return false;
+		} 
 }
