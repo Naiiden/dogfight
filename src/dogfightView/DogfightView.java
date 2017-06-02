@@ -10,11 +10,17 @@ public class DogfightView {
 	{
 
 	}
-	private void run();
+	private void run() 
+	{
+		
+	}
 	public displayMessage(String message)
 	{
 		
 	}
-	public void closeAll();
+	public void closeAll() 
+	{
+		
+	}
 	
 }
