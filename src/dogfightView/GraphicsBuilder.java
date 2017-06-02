@@ -31,4 +31,7 @@ public class GraphicsBuilder {
 		return 1;
 		
 	}
+	public void applyModelToGraphic(Graphics graphics, ImageObserver observer){
+		
+	}
 }
